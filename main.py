@@ -145,7 +145,7 @@ def evaluate(model, loader):
 # ============================================================
 history = {"loss": [], "acc": [], "f1": [], "auc": [], "precision": [], "recall": []}
 
-num_epochs = 20
+num_epochs = 30
 
 for epoch in range(num_epochs):
     train_loss = train_one_epoch(model, train_loader)
